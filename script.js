@@ -3,7 +3,7 @@ document.querySelector(".slider--width").style.with = `calc(100vw * ${totalSlide
 document.querySelector(".slider--controls").style.height = `${document.querySelector(".slider").clientHeight}px`
 
 let currentSlide = 0;
-
+let teste=0
 function goPrev() {
     currentSlide--
     if (currentSlide < 0) {
@@ -23,4 +23,4 @@ function updateMargin() {
     document.querySelector(".slider--width").style.marginLeft = `-${newMargin}px`
 }
 
-setInterval(goNext,2000)
+setInterval(goNext,2000)//teste
